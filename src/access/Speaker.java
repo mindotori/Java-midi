@@ -1,8 +1,10 @@
 package access;
 
 public class Speaker {
-    int volume;
-
+    private int volume; //이러면 Speaker에서만 접근 가능
+    // private 접근 제어자는 모든 외부 호출을 막는다
+    // private이 붙은 경우에는 해당 클래스 내부에서만 호출할 수 있다.
+    // int volume ====> private
     //생성자를 통해 초기음량 지정
     Speaker(int volume){
         this.volume = volume;

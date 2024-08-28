@@ -13,7 +13,7 @@ public class SpeakerMain {
 
         //필드에 직접 접근해서 값을 정해버리면 100을 넘지 못하도록 개발한 기능이 소용이 없어진다. => 접근제어자 필요성 재고
         System.out.println("volume 필드 직접 접근 수정");
-        speaker.volume = 200;
+        //speaker.volume = 200; // private을 쓰면 이렇게 접근 불가 (컴파일 오류)
         speaker.showVolume();
     }
 }
