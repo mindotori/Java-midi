@@ -6,7 +6,7 @@ public class FinalLocalMain {
         // final 지역 변수1
         final int data1;
         data1 = 10; // 최초 한번만 할당 가능
-        //data1 = 20; // 재할당시 컴파일 오류
+        //data1 = 20; // 재 할당시 컴파일 오류
 
         //final 지역 변수2
         final int data2 = 10; //값 초기 설정
