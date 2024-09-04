@@ -1,6 +1,7 @@
 package poly.basic;
 
 public class PolyMain {
+    //다형적 참조의 핵심: 부모는 자식을 품을 수 있다. 반대는 불가.
 
     public static void main(String[] args) {
         //부모 변수가 부모 인스턴스 참조
