@@ -9,7 +9,9 @@ public class CastingMain4 {
         child1.childMethod(); //문제 없음
 
         Parent parent2 = new Parent();
-        Child child2 = (Child)parent2; //런타임 오류 - CalssCastException
+        Child child2 = (Child)parent2; //런타임 오류 - ClassCastException
         child2.childMethod(); //실행 불가
+
+        //==> 하위 타입으로 강제로 다운캐스팅 하면 CalssCastException 런타임 오류 발생
     }
 }
