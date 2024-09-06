@@ -8,5 +8,11 @@ public class CarMain0 {
         driver.serK3Car(k3Car);
         driver.drive();
 
+
+        //추가
+        Model3Car model3Car = new Model3Car();
+        driver.serK3Car(null);
+        driver.setModel3Car(model3Car);
+        driver.drive();
     }
 }
