@@ -1,7 +1,7 @@
 package poly.car0;
 
 public class Driver {
-
+    //이 Driver클래스는 K3Car와 Model3Car를 알고있다 -> 둘에 의존한다 (의존관계)
     private K3Car k3Car; //참조형의 기본값은 null
     private Model3Car model3Car; //추가
 
