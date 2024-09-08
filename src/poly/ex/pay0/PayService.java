@@ -6,6 +6,7 @@ public class PayService {
 
         boolean result;
         System.out.println("결제를 시작합니다: option=" + option + ", amount="+amount);
+        //직접적으로 의존하는게 문제임 지금
         if (option.equals("kakao")){
             KakaoPay kakaoPay = new KakaoPay();
             result = kakaoPay.pay(amount);
