@@ -6,15 +6,11 @@ public class PayService {
     public void processPay(String option, int amount){
 
 
-        boolean result = false;
         System.out.println("결제를 시작합니다: option=" + option + ", amount="+amount);
 
         Pay pay = PayStore.findPay(option);
+        boolean result = pay.pay(amount);
 
-        //실제 결제 하는 부분
-        if(pay != null){
-            result = pay.pay(amount);
-        }
 
         if(result){
             System.out.println("결제가 성공했습니다.");
