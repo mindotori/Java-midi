@@ -7,4 +7,5 @@ public abstract class AbstractAnimal { //추상클래스로 생성
     public void move(){
         System.out.println("동물이 움직입니다.");
     }
+
 }
